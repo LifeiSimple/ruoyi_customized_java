@@ -37,6 +37,13 @@
             <version>1.6.2</version>
         </dependency>
 
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
          <!-- Mysql驱动包 -->
         <dependency>
             <groupId>mysql</groupId>
