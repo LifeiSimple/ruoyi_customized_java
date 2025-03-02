@@ -6,6 +6,9 @@ logging:
   file:
     # 日志存放位置 win10
     path: E:\project\ruoyi_customized\wangjx-java\log\${spring.application.name}-logs
+ruoyi:
+  # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
+  profile: E:\project\ruoyi_customized\wangjx-java\uploadPath
 
 # 数据源配置
 spring:
