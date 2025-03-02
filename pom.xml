@@ -218,6 +218,13 @@
                 <version>${wangjx.version}</version>
             </dependency>
 
+            <!-- api模块-->
+            <dependency>
+                <groupId>com.wangjx</groupId>
+                <artifactId>wangjx-api</artifactId>
+                <version>${wangjx.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -228,6 +235,7 @@
         <module>wangjx-quartz</module>
         <module>wangjx-generator</module>
         <module>wangjx-common</module>
+        <module>wangjx-api</module>
     </modules>
     <packaging>pom</packaging>
 
